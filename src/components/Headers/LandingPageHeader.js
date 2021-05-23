@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 
 // core components
 
@@ -28,7 +28,7 @@ function LandingPageHeader() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/bg6.jpg").default + ")",
+              "url(" + require("assets/img/bg.jpg").default + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -36,30 +36,30 @@ function LandingPageHeader() {
           <Container>
             <h1 className="title">Breeze Builders</h1>
             <div className="text-center">
-              <Button
+              {/* <Button
                 className="btn-icon btn-round"
                 color="info"
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-facebook-square"></i>
-              </Button>
-              <Button
+              </Button> */}
+              {/* <Button
                 className="btn-icon btn-round"
                 color="info"
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-twitter"></i>
-              </Button>
-              <Button
+              </Button> */}
+              {/* <Button
                 className="btn-icon btn-round"
                 color="info"
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fab fa-google-plus"></i>
-              </Button>
+              </Button> */}
             </div>
           </Container>
         </div>

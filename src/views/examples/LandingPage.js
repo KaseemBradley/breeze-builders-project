@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 
 // reactstrap components
 import {
-  Button,
+  // Button,
   // Input,
   // InputGroupAddon,
   // InputGroupText,
@@ -76,11 +76,12 @@ function LandingPage() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
                 <h5 className="description">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea.
+                  {"(rephrase this paragraph, I stole it)"}
+                  <br></br>
+                  We specialize in renovation, restoration, and new construction
+                  of custom residential and light commercial projects. Over the
+                  past x years, we have worked in some of the most prestigious
+                  addresses in New Jersey and its surrounding area.
                 </h5>
               </Col>
             </Row>
@@ -92,22 +93,22 @@ function LandingPage() {
                     className="image-container image-left"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/login.jpg").default + ")",
+                        "url(" + require("assets/img/tool.jpg").default + ")",
                     }}
                   >
                     <p className="blockquote blockquote-info">
-                      "Over the span of the satellite record, Arctic sea ice has
-                      been declining significantly, while sea ice in the
-                      Antarctichas increased very slightly" <br></br>
+                      "this can be a formal statement testifying to Breeze
+                      Builder's qualifications....filler text filler text filler
+                      text" <br></br>
                       <br></br>
-                      <small>-NOAA</small>
+                      <small>-Kaz</small>
                     </p>
                   </div>
                   <div
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg3.jpg").default + ")",
+                        "url(" + require("assets/img/house.jpg").default + ")",
                     }}
                   ></div>
                 </Col>
@@ -116,24 +117,35 @@ function LandingPage() {
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg1.jpg").default + ")",
+                        "url(" + require("assets/img/guys.JPG").default + ")",
                     }}
                   ></div>
-                  <h3>
-                    So what does the new record for the lowest level of winter
-                    ice actually mean
-                  </h3>
+                  <h3>any additional information, list of services, etc..</h3>
+                  <ul>
+                    <li>
+                      <p>something</p>
+                    </li>
+                    <li>
+                      <p>something else</p>
+                    </li>
+                    <li>
+                      <p>more</p>
+                    </li>
+                    <li>
+                      <p>extra</p>
+                    </li>
+                  </ul>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text text text text text text text text text text text text
+                    text
                   </p>
-                  <p>
+                  {/* <p>
                     For a start, it does not automatically follow that a record
                     amount of ice will melt this summer. More important for
                     determining the size of the annual thaw is the state of the
@@ -141,23 +153,13 @@ function LandingPage() {
                     rise. But over the more than 30 years of satellite records,
                     scientists have observed a clear pattern of decline,
                     decade-by-decade.
-                  </p>
-                  <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
-                  </p>
+                  </p> */}
                 </Col>
               </Row>
             </div>
           </Container>
         </div>
-        <div className="section section-team text-center">
+        {/* <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
             <div className="team">
@@ -289,7 +291,7 @@ function LandingPage() {
               </Row>
             </div>
           </Container>
-        </div>
+        </div> */}
 
         <div className="section section-contact-us text-center">
           <Container>

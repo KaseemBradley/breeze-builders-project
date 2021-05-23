@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
@@ -88,12 +88,11 @@ function ExamplesNavbar() {
             </DropdownMenu>
           </UncontrolledDropdown>
           <div className="navbar-translate">
-            <NavbarBrand href="/" target="_blank" id="navbar-brand">
-              Breeze Builders
-            </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
+            <NavbarBrand id="navbar-brand">{"Breeze Builders"}</NavbarBrand>
+            <NavbarBrand id="navbar-brand">{"(123)-456-789"}</NavbarBrand>
+            {/* <UncontrolledTooltip target="#navbar-brand">
               Contact
-            </UncontrolledTooltip>
+            </UncontrolledTooltip> */}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -115,31 +114,31 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                {/* <NavLink to="/index" tag={Link}>
                   Back to Kit
-                </NavLink>
+                </NavLink> */}
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                {/* <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
                   Have an issue?
-                </NavLink>
+                </NavLink> */}
               </NavItem>
               <NavItem>
-                <NavLink
+                {/* <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
                   id="twitter-tooltip"
                 >
                   <i className="fab fa-twitter"></i>
                   <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
+                </NavLink> */}
+                {/* <UncontrolledTooltip target="#twitter-tooltip">
                   Follow us on Twitter
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="https://www.facebook.com"
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -152,7 +151,7 @@ function ExamplesNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href="https://www.instagram.com"
                   target="_blank"
                   id="instagram-tooltip"
                 >
