@@ -61,7 +61,7 @@ function IndexNavbar() {
               Breeze Builders
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
+              Contact
             </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
