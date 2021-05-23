@@ -12,7 +12,7 @@ function DefaultFooter() {
       <footer className="footer footer-default">
         <Container>
           <nav>
-            <ul>
+            {/* <ul>
               <li>
                 <a
                   href="https://www.creative-tim.com?ref=nukr-default-footer"
@@ -37,24 +37,23 @@ function DefaultFooter() {
                   Blog
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </nav>
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
-            <a
+            © {new Date().getFullYear()}
+            {/* <a
               href="https://www.invisionapp.com?ref=nukr-default-footer"
               target="_blank"
             >
               Invision
-            </a>
-            . Coded by{" "}
-            <a
+            </a> */}
+            . Breeze Builders{" "}
+            {/* <a
               href="https://www.creative-tim.com?ref=nukr-default-footer"
               target="_blank"
             >
               Creative Tim
-            </a>
-            .
+            </a> */}
           </div>
         </Container>
       </footer>

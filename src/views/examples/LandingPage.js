@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+// import { Gallery } from "../../components/Gallery";
 
 // reactstrap components
 import {
@@ -292,10 +293,11 @@ function LandingPage() {
             </div>
           </Container>
         </div> */}
+        {/* <Gallery /> */}
 
         <div className="section section-contact-us text-center">
           <Container>
-            <h2 className="title">Want to work with us?</h2>
+            <h2 className="title">Get in Touch</h2>
             <p className="description">Your project is very important to us.</p>
             <form name="sentMessage" onSubmit={handleClick}>
               <div className="row">
